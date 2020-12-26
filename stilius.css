@@ -1,0 +1,111 @@
+body{
+   background-image: url('winter.jpg');
+}
+    .div-bendras{
+        width: 721px;
+        margin-left: calc((100% - 721px)/2);
+        border: yellow;
+        border-style: double;
+        border-width: 20px;
+    }
+        .div-virsus1{
+            height: 380px;
+            width: 100%;
+            display: inline-block;
+            float: left;
+            background-color: #F7442D;
+            
+        }
+            .div-virsus2{
+                text-align: center;
+                color: white;
+                width: 600px;
+                margin-left: calc((100% - 600px)/2);
+            }
+                h1{
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                    margin-top: 15px;
+                }
+                .p-po-h-elementu{
+                    margin-top: 0;
+                    width: 400px;
+                    margin-left: calc((100% - 400px)/2);
+                    font-size: 10px;
+                }
+            .container{
+                position:relative;       
+            }
+                .button-virsus-kaire{
+                    position: absolute;
+                    left: 29%;
+                    text-transform: capitalize;
+                    color: white;
+                    background-color: #F7442D;
+                    border-color: white;
+                    padding: 10px 15px 10px 15px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+                .button-virsus-desine{
+                    position: absolute;
+                    right: 30%;
+                    text-transform: capitalize;
+                    color: white;
+                    background-color: #F7442D;
+                    border-color: white;
+                    padding: 10px 15px 10px 15px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: #E51100;
+                    border: none;
+                }
+            
+                .img-virsus{
+                    display: inline-block;
+                    float: left;
+
+                 }
+        .div-apacia1{
+            text-align: center;
+            color: #452C42;
+            font-weight: bolder;
+        }
+            h2{
+                margin-bottom: 10px;
+                display: inline-block;
+                text-transform: capitalize;
+            }
+            .div-4stulpeliai{
+                width: 700px;
+                margin-left: calc((100% - 700px)/2);
+                margin-right: calc((100% - 700px)/2);
+                display: inline-block;
+            }
+                section{
+                   
+                    text-align: center;
+                    dispaly: inline-block;
+                    float: left;
+                    width: 21%;
+                    margin-right: 5%;
+                }
+                    h3{
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        margin-top: 0;
+                    }
+                    section > p{
+                        font-size: 10px;
+                    }
+                    section > img {
+                        display: inline-block;
+                        
+                    }
+                    section:last-of-type {
+                        margin: 0;
+                    }
+
+ 
